@@ -47,7 +47,7 @@
         }
       }
     },
-    
+
     "version": {
       "type": "string",
       "description": "Version of the Signal K root object.",
@@ -243,14 +243,14 @@
           "description": "An unique identifier by which the crew identifies a sail",
           "example": "J1"
         },
-        
+
         "type": {
           "type": "string",
           "required": true,
           "description": "The type of sail",
           "example": "Genaker"
         },
-        
+
         "material": {
           "type": "string",
           "required": false,
@@ -317,19 +317,19 @@
         "value": {
           "type": "string"
         },
-        
+
         "timestamp": {
           "$ref": "#/definitions/timestamp"
         },
-    
+
         "source": {
           "$ref": "#/definitions/source"
         },
-    
+
         "_attr": {
           "$ref": "#/definitions/_attr"
         },
-    
+
         "meta": {
           "$ref": "#/definitions/meta"
         }
@@ -347,7 +347,7 @@
         "timestamp": {
           "$ref": "#/definitions/timestamp"
         },
-  
+
         "source": {
           "$ref": "#/definitions/source"
         },
@@ -355,7 +355,7 @@
         "_attr": {
           "$ref": "#/definitions/_attr"
         },
-  
+
         "meta": {
           "$ref": "#/definitions/meta"
         }
@@ -369,11 +369,11 @@
         "value": {
           "type": "number"
         },
-  
+
         "timestamp": {
           "$ref": "#/definitions/timestamp"
         },
-  
+
         "source": {
           "$ref": "#/definitions/source"
         },
@@ -381,7 +381,7 @@
         "_attr": {
           "$ref": "#/definitions/_attr"
         },
-    
+
         "meta": {
           "$ref": "#/definitions/meta"
         }
@@ -395,11 +395,11 @@
         "value": {
           "type": "null"
         },
-  
+
         "timestamp": {
           "$ref": "#/definitions/timestamp"
         },
-  
+
         "source": {
           "$ref": "#/definitions/source"
         },
@@ -413,7 +413,7 @@
         }
       }
     },
-  
+
     "_attr": {
       "type": "object",
       "title": "_attr schema.",
@@ -441,7 +441,7 @@
         }
       }
     },
-  
+
     "meta": {
       "type": "object",
       "title": "Meta schema.",
@@ -453,28 +453,28 @@
           "description": "A display name for this value.",
           "example": "Tachometer, Engine 1"
         },
-  
+
         "longName": {
           "type": "string",
           "title": "LongName schema.",
           "description": "A long name for this value.",
           "example": "Tachometer, Engine 1"
         },
-  
+
         "shortName": {
           "type": "string",
           "title": "ShortName schema.",
           "description": "A short name for this value.",
           "example": "RPM"
         },
-  
+
         "gaugeType": {
           "type": "string",
           "title": "gaugeType schema.",
           "description": "The type of gauge necessary to display this value.",
           "example": "sparkline"
         },
-  
+
         "units": {
           "type": "string",
           "title": "units schema.",
@@ -497,7 +497,7 @@
             "sound"
           ]
         },
-  
+
         "alarmMethod": {
           "type": "string",
           "title": "AlarmMethod schema.",
@@ -508,7 +508,7 @@
             "sound"
           ]
         },
-  
+
         "zones": {
           "type": "array",
           "title": "Zones schema.",
@@ -527,7 +527,7 @@
                   "name": "bottom",
                   "example": 3500
                 },
-  
+
                 {
                   "id": "top",
                   "type": "number",
@@ -536,7 +536,7 @@
                   "name": "1",
                   "example": 4000
                 },
-                
+
                 {
                   "id": "alarmState",
                   "type": "string",
@@ -550,7 +550,7 @@
                     "alarm"
                   ]
                 },
-                
+
                 {
                   "id": "message",
                   "type": "string",
